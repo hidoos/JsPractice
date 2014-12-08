@@ -1,0 +1,19 @@
+@charset "utf-8";
+body {
+    margin:0;
+    position: relative;
+    padding:0 20px;
+}
+
+.message{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    border:1px solid #53cc1c;
+    border-radius:4px;
+    background:#99cc33;
+    color:#fff;
+    font-size:16px;
+    text-align:center;
+}
