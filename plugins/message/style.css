@@ -1,4 +1,7 @@
 @charset "utf-8";
+*{
+    box-sizing: border-box;
+}
 body {
     margin:0;
     position: relative;
@@ -10,6 +13,7 @@ body {
     top:0;
     left:0;
     width:100%;
+    padding:10px 20px;
     border:1px solid #53cc1c;
     border-radius:4px;
     background:#99cc33;
