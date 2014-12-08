@@ -6,7 +6,9 @@
  * @param name {String}
  * @param func {function}
  */
-Function.prototype.method = function(name,func){
+Function.prototype.method = function (name, func) {
+    "use strict";
+    
     this.prototype[name] = func;
     return this;
 };
